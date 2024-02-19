@@ -87,7 +87,7 @@ body{
     cursor: pointer;
 }
 .contact ul li{
-    color: #fab;
+    color: #fff;
     font-weight: 500px;
 }
 .education ul{
@@ -257,6 +257,31 @@ body{
     width: 30px;
     font-size: 18px;
     color: #03a9f4;
+}
+.certification .box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px 0;
+}
+.certification .box .month{
+    min-width: 150px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.certification h5{
+    text-transform: uppercase;
+    color: #848c90;
+    font-weight: 600;
+    margin: 0;
+}
+.experience p{
+    color:  #333;
+    font-weight: 500;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
 
